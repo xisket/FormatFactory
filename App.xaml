@@ -1,0 +1,6 @@
+<Application x:Class="FormatFactory.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" StartupUri="MainWindow.xaml">
+ <Application.Resources>
+  <Style TargetType="Button"><Setter Property="Padding" Value="16,9"/><Setter Property="Margin" Value="4"/><Setter Property="Background" Value="#E7EEF8"/><Setter Property="BorderThickness" Value="0"/><Setter Property="Cursor" Value="Hand"/></Style>
+  <Style TargetType="TextBox"><Setter Property="Padding" Value="10"/><Setter Property="BorderBrush" Value="#D5DFEB"/></Style>
+ </Application.Resources>
+</Application>
